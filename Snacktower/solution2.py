@@ -1,7 +1,7 @@
 #https://codeforces.com/problemset/problem/767/A
 size_of_inputs = int(input())
 arr = list(map(int, input().split()))
-arr2 = set()  
+arr2 = {} 
 maximam = size_of_inputs  
 
 for snack in arr:
